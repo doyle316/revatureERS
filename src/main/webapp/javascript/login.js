@@ -256,7 +256,7 @@ function ajaxGetAll(ending) {
 	}
 	
 	//Calls MasterServletJSON
-	xhttp.open('POST', 'http://localhost:10054/RykerERS/json/'+ending, true);
+	xhttp.open('POST', 'json/'+ending, true);
 	xhttp.send();
 }
 
@@ -278,7 +278,7 @@ function ajaxApproveDeny(reimb_id, decision){
 		}
 	}
 	//Calls MasterServletAction
-	xhttp.open('POST', 'http://localhost:10054/RykerERS/action/updatereimbs.ryker'+'?'+params, true);
+	xhttp.open('POST', 'action/updatereimbs.ryker'+'?'+params, true);
 	xhttp.send();
 }
 	
@@ -590,7 +590,7 @@ function sendData() {
 	});
 
 	// Set up our request
-	XHR.open('POST', 'http://localhost:10054/RykerERS/action/addreimb.ryker');
+	XHR.open('POST', 'action/addreimb.ryker');
 
 	// Add the required HTTP header to handle a multipart form data POST request
 	XHR.setRequestHeader('Content-Type','multipart/form-data; boundary=' + boundary);
@@ -689,6 +689,6 @@ function ajaxLogout() {
 		}
 	}
 	//Calls MasterServletAction
-	xhttp.open('POST', 'http://localhost:10054/RykerERS/action/logout.ryker', true);
+	xhttp.open('POST', 'action/logout.ryker', true);
 	xhttp.send();
 }
