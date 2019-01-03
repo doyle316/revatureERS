@@ -39,6 +39,9 @@ public class ReimbursementController {
 	   String description=req.getParameter("description");	
 	   String type=req.getParameter("type");
            String amountS=req.getParameter("amount");
+		System.out.println("amountS " + amountS);
+		System.out.println("description " + description);
+		System.out.println("type " + type);
 	   System.out.println("wesndfij csdjc sdkcvds v");
        	   double amount = Double.parseDouble(amountS);
 	   String username = (String) req.getSession().getAttribute("username");
