@@ -72,7 +72,7 @@ function ajaxLogin(){
 	    }
 	};
 	//Calls MasterServletJSON
-	xhttp.open('POST', 'http://localhost:10054/RykerERS/json/login.ryker?'+params, true);
+	xhttp.open('POST', '/json/login.ryker?'+params, true);
 	xhttp.send();
 }
 
