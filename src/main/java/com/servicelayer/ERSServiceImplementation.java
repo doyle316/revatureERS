@@ -151,6 +151,7 @@ public class ERSServiceImplementation implements ERSService {
 			return false;
 		}
 	}
+	/*
 	@Override
 	public boolean addReimbursementReceipt(double amount, String description, String username, String type,
 			String filePath) {
@@ -177,5 +178,6 @@ public class ERSServiceImplementation implements ERSService {
 			return false;
 		}
 	}
+	*/
 
 }
