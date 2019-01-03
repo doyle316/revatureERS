@@ -225,7 +225,7 @@ function ajaxGetAll(ending) {
 	susan.innerHTML = `<div id='content'><div id="fade"></div><div id = 'deedee'><img id="loader" src="RykerSign.png" /></div></div>`;
 	openModal();
 	
-	oReq.send();
+	//oReq.send();
 	
 	
 	let xhttp = new XMLHttpRequest();
