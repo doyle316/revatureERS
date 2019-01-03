@@ -36,7 +36,21 @@ public class ReimbursementController {
 
 	// Part of Action
 	public static String add(HttpServletRequest req, HttpServletResponse resp) {
-	   return "";
+	   String description=req.getParameter("description");	
+	   String type=req.getParameter("type");
+           String amountS=req.getParameter("amount");
+	   System.out.println("wesndfij csdjc sdkcvds v");
+       	   double amount = Double.parseDouble(amountS);
+	   String username = (String) req.getSession().getAttribute("username");
+	   if (eserv.addReimbursement(amount, description, username, type)) {
+	   	logger.info("@add		Success: User " + username + " has added a new reimbursement for " + type
+					+ " in amount of " + amount);
+		return "Add Successful";
+	   } else {
+		logger.info("@add		FAIL: User " + username + " did not add a new reimbursement for " + type
+					+ " in amount of " + amount);
+		return "Add NOT Successful";
+	   }
 	}
 	/*
 	public static String add(HttpServletRequest req, HttpServletResponse resp) {
