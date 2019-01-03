@@ -14,12 +14,14 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+/*
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.fileupload.FileItem;
 import org.apache.commons.fileupload.FileUploadException;
 import org.apache.commons.fileupload.disk.DiskFileItemFactory;
 import org.apache.commons.fileupload.servlet.ServletFileUpload;
 import org.apache.commons.io.FilenameUtils;
+*/
 import org.apache.log4j.Logger;
 
 import com.classes.Reimbursement;
@@ -33,6 +35,8 @@ public class ReimbursementController {
 	final static Logger logger = Logger.getLogger(ReimbursementController.class);
 
 	// Part of Action
+	
+	/*
 	public static String add(HttpServletRequest req, HttpServletResponse resp) {
 		String description="";
 		String type="";
@@ -101,6 +105,7 @@ public class ReimbursementController {
 			return "Add NOT Successful";
 		}
 	}
+	*/
 	
 	// Part of JSON
 	public static String getByName(HttpServletRequest req, HttpServletResponse resp) throws IOException {
