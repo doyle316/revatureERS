@@ -35,7 +35,9 @@ public class ReimbursementController {
 	final static Logger logger = Logger.getLogger(ReimbursementController.class);
 
 	// Part of Action
-	
+	public static String add(HttpServletRequest req, HttpServletResponse resp) {
+	   return "";
+	}
 	/*
 	public static String add(HttpServletRequest req, HttpServletResponse resp) {
 		String description="";
