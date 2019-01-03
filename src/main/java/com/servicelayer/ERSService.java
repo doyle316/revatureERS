@@ -16,6 +16,6 @@ public interface ERSService {
 	public ArrayList<Reimbursement> getAllUserReimbs(String ers_username);
 	public boolean addReimbursement(double amount, String description, String username, String type);
 	public boolean updateReimbursement(User user, int reimb_id, String decision);
-	public boolean addReimbursementReceipt(double amount, String description, String username, String type,
-			String filePath);
+	/*public boolean addReimbursementReceipt(double amount, String description, String username, String type,
+			String filePath);*/
 }
