@@ -16,10 +16,10 @@ import java.sql.Types;
 import java.util.ArrayList;
 
 import javax.sql.rowset.serial.SerialException;
-
+/*
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-
+*/
 import com.classes.Reimbursement;
 
 public class ReimbDAOImplementation implements ReimbDAO {
@@ -198,7 +198,7 @@ public class ReimbDAOImplementation implements ReimbDAO {
 	}
 	
 	
-	
+	/*
 	public static byte[] convertFileContentToBlob(String filePath) throws IOException {
 		byte[] fileContent = null;
 		try {
@@ -237,7 +237,7 @@ public class ReimbDAOImplementation implements ReimbDAO {
 		}
 		return rs;
 	}
-	
+	*/
 	public int addReimbursement(double amount, String description, String userName, String type) {
 		int rs = 0;
 		try (Connection conn = DriverManager.getConnection(url, username, password)) {
