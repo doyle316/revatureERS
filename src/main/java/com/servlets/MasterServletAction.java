@@ -3,7 +3,7 @@ package com.servlets;
 import java.io.IOException;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
+//import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,7 +13,7 @@ import org.apache.log4j.Logger;
 import com.servlets.helpers.RequestHelperAction;
 
 //@WebServlet(name = "FileUploadServlet", urlPatterns = {"/upload"})
-@MultipartConfig
+//@MultipartConfig
 public class MasterServletAction extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	final static Logger logger = Logger.getLogger(MasterServletAction.class);
