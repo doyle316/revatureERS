@@ -1,0 +1,1671 @@
+2018-11-28 10:33:29 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 10:33:29 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 10:33:29 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 10:33:29 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 10:33:31 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 10:33:31 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 10:33:31 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 10:33:32 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 10:33:33 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 10:33:33 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 10:37:03 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 10:37:03 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 10:37:03 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 10:37:03 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:10:39 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:10:39 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:10:39 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-11-28 13:10:40 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-11-28 13:10:40 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-11-28 13:10:40 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:10:46 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:10:46 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:10:46 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-28 13:10:47 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyle found
+2018-11-28 13:10:47 INFO  ReimbursementController:114 - @getByName		FAIL: User seandoyle does not have reimbursement history or bad username
+2018-11-28 13:10:47 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:10:49 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:10:49 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:10:49 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-28 13:10:51 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyle found
+2018-11-28 13:10:51 INFO  ReimbursementController:114 - @getByName		FAIL: User seandoyle does not have reimbursement history or bad username
+2018-11-28 13:10:51 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:11:01 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:11:01 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:11:01 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:11:01 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:11:07 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:11:07 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:11:07 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-11-28 13:11:08 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-11-28 13:11:08 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-11-28 13:11:08 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:11:11 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:11:11 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:11:11 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-28 13:11:13 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyle found
+2018-11-28 13:11:13 INFO  ReimbursementController:114 - @getByName		FAIL: User seandoyle does not have reimbursement history or bad username
+2018-11-28 13:11:13 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:32 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:15:32 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:15:32 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:15:32 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:37 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:15:37 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:15:37 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:15:38 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:15:38 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:15:38 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:42 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:15:42 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:15:42 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:15:43 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 13:15:43 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:15:43 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:48 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:15:48 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:15:48 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-11-28 13:15:49 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 13:15:49 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Approve
+2018-11-28 13:15:49 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:49 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:15:49 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:15:49 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:15:50 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 13:15:50 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:15:50 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:53 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:15:53 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:15:53 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-11-28 13:15:53 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 101
+2018-11-28 13:15:53 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Deny
+2018-11-28 13:15:53 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:15:53 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:15:53 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:15:53 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:15:54 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 13:15:54 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:15:54 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:16:07 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:16:07 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:16:07 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:16:07 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:16:15 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:16:15 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:16:15 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) ryanwilliams
+2018-11-28 13:16:16 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user ryanwilliams found
+2018-11-28 13:16:16 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=ryanwilliams, firstName=Ryan, lastName=Williams, email=rrwilliams1600@gmail.com, role=Employee]
+2018-11-28 13:16:16 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:16:45 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 13:16:45 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 13:16:45 INFO  ERSServiceImplementation:91 - @addReimbursement		username ryanwilliams
+2018-11-28 13:16:46 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for ryanwilliams
+2018-11-28 13:16:46 INFO  ReimbursementController:95 - @add		Success: User ryanwilliams has added a new reimbursement for Food in amount of 8.34
+2018-11-28 13:16:46 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:11 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 13:17:11 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 13:17:11 INFO  ERSServiceImplementation:91 - @addReimbursement		username ryanwilliams
+2018-11-28 13:17:12 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for ryanwilliams
+2018-11-28 13:17:12 INFO  ReimbursementController:95 - @add		Success: User ryanwilliams has added a new reimbursement for Travel in amount of 1324.89
+2018-11-28 13:17:12 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:25 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:17:25 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:17:25 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:17:25 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:30 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:17:30 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:17:30 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:17:30 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:17:30 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:17:30 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:37 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:17:37 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:17:37 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:17:38 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:5 reimbursements obtained
+2018-11-28 13:17:38 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:17:38 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:41 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:17:41 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:17:41 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-11-28 13:17:42 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 103
+2018-11-28 13:17:42 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Approve
+2018-11-28 13:17:42 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:42 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:17:42 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:17:42 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:17:43 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:5 reimbursements obtained
+2018-11-28 13:17:43 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:17:43 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:49 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:17:49 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 13:17:49 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-11-28 13:17:49 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 104
+2018-11-28 13:17:49 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Deny
+2018-11-28 13:17:49 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:49 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:17:49 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:17:49 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:17:50 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:5 reimbursements obtained
+2018-11-28 13:17:50 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:17:50 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:17:53 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:17:53 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:17:53 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:17:53 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:18:03 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:18:03 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:18:03 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) ryanwilliams
+2018-11-28 13:18:05 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user ryanwilliams found
+2018-11-28 13:18:05 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=ryanwilliams, firstName=Ryan, lastName=Williams, email=rrwilliams1600@gmail.com, role=Employee]
+2018-11-28 13:18:05 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:19:07 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 13:19:07 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 13:19:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username ryanwilliams
+2018-11-28 13:19:08 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for ryanwilliams
+2018-11-28 13:19:08 INFO  ReimbursementController:95 - @add		Success: User ryanwilliams has added a new reimbursement for Other in amount of 528.99
+2018-11-28 13:19:08 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:19:12 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:19:12 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:19:12 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ryanwilliams
+2018-11-28 13:19:13 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for ryanwilliams obtained
+2018-11-28 13:19:13 INFO  ReimbursementController:111 - @getByName		Success: User ryanwilliams has received their reimbursement history
+2018-11-28 13:19:13 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:19:16 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:19:16 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:19:16 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:19:16 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:19:20 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:19:20 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:19:20 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:19:21 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:19:21 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:19:21 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:19:31 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:19:31 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:19:31 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:19:31 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:6 reimbursements obtained
+2018-11-28 13:19:31 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:19:31 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:20:09 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 13:20:09 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 13:20:09 INFO  ERSServiceImplementation:91 - @addReimbursement		username trevinchester
+2018-11-28 13:20:10 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-11-28 13:20:10 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Lodging in amount of 100000.0
+2018-11-28 13:20:10 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:20:14 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:20:14 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:20:14 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:20:16 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:20:16 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:20:16 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:20:18 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:20:18 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:20:18 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:20:19 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:20:19 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:20:19 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:20:24 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:20:24 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:20:24 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:20:24 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:24:08 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:24:08 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:24:08 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:24:08 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:24:10 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:24:10 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:24:10 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:24:11 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:24:11 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:24:11 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:24:14 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:24:14 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:24:14 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:24:15 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:24:15 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:24:15 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:25:08 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:25:08 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:25:08 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-11-28 13:25:08 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:1 reimbursements for trevinchester obtained
+2018-11-28 13:25:08 INFO  ReimbursementController:111 - @getByName		Success: User trevinchester has received their reimbursement history
+2018-11-28 13:25:08 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:25:11 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:25:11 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:25:11 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:25:11 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:25:16 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:25:16 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:25:16 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:25:16 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:25:16 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:25:16 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:25:24 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:25:24 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:25:24 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-11-28 13:25:24 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:1 reimbursements for trevinchester obtained
+2018-11-28 13:25:24 INFO  ReimbursementController:111 - @getByName		Success: User trevinchester has received their reimbursement history
+2018-11-28 13:25:24 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:25:28 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:25:28 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:25:28 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:25:28 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:25:28 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:25:28 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:26:18 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:26:18 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:26:18 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:26:18 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:26:21 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:26:21 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:26:21 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:26:21 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:26:23 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:26:23 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:26:23 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:26:24 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:26:24 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:26:24 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:27:28 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:27:28 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:27:28 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:27:28 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:27:31 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:27:31 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:27:31 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:27:31 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:27:33 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:27:33 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:27:33 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:27:35 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:27:35 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:27:35 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:27:56 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:27:56 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:27:56 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:27:56 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:27:59 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:27:59 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:27:59 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:27:59 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:27:59 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:27:59 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:34:33 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:34:33 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:34:33 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:34:33 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:34:35 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:34:35 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:34:35 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:34:37 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:34:37 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:34:37 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:34:40 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:34:40 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:34:40 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:34:42 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:34:42 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:34:42 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:35:24 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:35:24 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:35:24 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:35:24 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:35:26 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:35:26 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:35:26 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:35:28 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:35:28 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:35:28 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:35:32 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:35:32 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:35:32 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:35:33 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:35:33 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:35:33 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:35:39 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:35:39 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:35:39 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-11-28 13:35:40 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:1 reimbursements for trevinchester obtained
+2018-11-28 13:35:40 INFO  ReimbursementController:111 - @getByName		Success: User trevinchester has received their reimbursement history
+2018-11-28 13:35:40 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:36:25 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:36:25 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:36:25 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:36:25 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:36:28 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:36:28 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:36:28 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:36:28 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:36:28 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:36:28 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:37:23 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:37:23 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:37:23 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:37:24 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:37:24 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:37:24 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:37:30 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:37:30 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:37:30 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:37:30 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:42:28 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:42:28 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:42:28 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:42:28 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:42:30 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:42:30 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:42:30 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:42:31 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:42:31 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:42:31 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:42:34 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:42:34 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:42:34 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:42:35 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:42:35 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:42:35 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:43:19 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:43:19 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:43:19 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:43:19 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:43:25 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:43:25 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:43:25 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:43:28 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:43:28 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:43:28 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:43:31 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:43:31 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:43:31 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:43:35 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:43:35 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:43:35 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:46:31 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:46:31 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:46:31 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:46:31 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:46:33 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:46:33 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:46:33 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:46:35 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:46:35 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:46:35 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:46:41 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:46:41 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:46:41 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-11-28 13:46:42 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:1 reimbursements for trevinchester obtained
+2018-11-28 13:46:42 INFO  ReimbursementController:111 - @getByName		Success: User trevinchester has received their reimbursement history
+2018-11-28 13:46:42 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:46:51 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:46:51 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:46:51 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:46:52 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:46:52 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:46:52 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:47:03 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:47:03 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:47:03 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:47:03 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:47:03 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:47:03 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:47:10 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:47:10 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:47:10 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:47:10 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:48:22 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:48:22 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:48:22 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:48:24 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:48:25 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:48:25 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:48:32 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:48:32 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:48:32 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:48:32 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:49:07 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:49:07 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:49:07 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:49:08 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:49:08 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:49:08 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:49:12 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:49:12 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:49:12 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:49:13 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:49:13 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:49:13 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:57:46 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 13:57:47 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 13:57:47 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 13:57:47 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:57:53 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 13:57:53 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 13:57:53 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 13:57:55 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 13:57:55 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 13:57:55 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:57:58 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:57:58 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 13:57:58 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-11-28 13:57:59 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:1 reimbursements for trevinchester obtained
+2018-11-28 13:57:59 INFO  ReimbursementController:111 - @getByName		Success: User trevinchester has received their reimbursement history
+2018-11-28 13:57:59 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 13:58:01 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 13:58:01 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 13:58:01 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 13:58:01 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:7 reimbursements obtained
+2018-11-28 13:58:01 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 13:58:01 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:06:33 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:06:33 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:06:33 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 14:06:35 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 14:06:36 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 14:06:36 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:06:38 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:06:38 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:06:38 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:06:38 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:08:00 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:08:01 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:08:01 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 14:08:02 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 14:08:03 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 14:08:03 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:08:16 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:08:16 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:08:16 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:08:16 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:09:11 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:09:11 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:09:11 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 14:09:13 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 14:09:13 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 14:09:13 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:09:15 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:09:15 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:09:15 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:09:15 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:11:39 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:11:39 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:11:39 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:11:39 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:11:39 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:11:39 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:11:39 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:11:39 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:11:44 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:11:44 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:11:44 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 14:11:46 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 14:11:47 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 14:11:47 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:11:48 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:11:48 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:11:48 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:11:48 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:28:46 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:28:46 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:28:46 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:28:46 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:28:46 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:28:46 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:29:34 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:29:34 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:29:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:29:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:29:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:29:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:29:41 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:29:41 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:29:41 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:29:41 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:29:41 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:29:41 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:30:04 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:30:04 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:30:04 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:30:04 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:30:04 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:30:04 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:31:14 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:31:15 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:31:15 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:31:15 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:31:15 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:31:15 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:37:07 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:37:07 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:37:07 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:37:07 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:37:07 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:37:07 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:37:07 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:37:21 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:40:44 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:40:44 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:40:44 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:40:44 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:40:44 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:40:44 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:40:44 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:42:34 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:42:34 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:42:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:42:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:42:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:42:34 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:42:35 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:42:42 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:42:42 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:42:42 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:42:42 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:42:42 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:42:42 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:42:43 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:44:51 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:44:51 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:44:51 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:44:51 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:45:00 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:45:00 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:45:00 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 14:45:02 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 14:45:03 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 14:45:03 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:45:05 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:45:05 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:45:05 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:45:05 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:47:50 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:47:50 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:47:50 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:47:50 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:47:50 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:47:50 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:47:50 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:47:51 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:47:51 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:47:51 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:47:51 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:47:51 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:47:51 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:47:51 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:48:28 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:48:28 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:48:28 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:48:28 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:48:28 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:48:28 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:48:28 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:52:37 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:52:38 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:52:38 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 14:52:41 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 14:52:42 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 14:52:42 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:52:45 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:52:45 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:52:45 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:52:45 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:52:47 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 14:52:47 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 14:52:47 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchesterf
+2018-11-28 14:52:48 INFO  ERSServiceImplementation:84 - @checkLoginCreds		FAIL: user at trevinchesterf with specified password NOT found
+2018-11-28 14:52:48 INFO  LoginController:39 - @login		FAIL: login returned user is null
+2018-11-28 14:52:48 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:52:49 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:52:49 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:52:49 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:52:49 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:54:47 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:54:47 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:54:47 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:54:47 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 14:57:38 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 14:57:38 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 14:57:38 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 14:57:38 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 14:57:38 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 14:57:38 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 14:57:39 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 14:59:19 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 14:59:19 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 14:59:19 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 14:59:19 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:10:24 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:10:24 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:10:24 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-28 15:10:24 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-28 15:10:24 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-28 15:10:24 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:10:35 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:10:35 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:10:35 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:10:35 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:34:00 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:3 reimbursements obtained
+2018-11-28 15:34:00 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 15:34:00 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for trevinchester found
+2018-11-28 15:34:00 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for seandoyl found
+2018-11-28 15:34:00 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for jamesbartik found
+2018-11-28 15:34:00 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for 1 found
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:33 - @getAllUsers
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:36 - @getUsers		Success:3 users obtained
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username billybob
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:100 - @addReimbursement		Fail: BAD USERNAME reimbursement NOT added for billybob
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:103 - @addReimbursement		Fail: BAD TYPE reimbursement NOT added for bronwenhughes with Ukraine
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:106 - @addReimbursement		Fail: BAD STATUS reimbursement NOT added for bronwenhughes with pending
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:109 - @addReimbursement		Fail: BAD EXECUTE reimbursement NOT added for bronwenhughes; DROP TBALE ERS_USERS; DO
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:91 - @addReimbursement		username bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:112 - @addReimbursement		FAIL: BAD CONNECTION reimbursement NOT added bronwenhughes
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:55 - @checkUserType		Admin null
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:58 - @checkUserType		Employee null
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 1
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:67 - @getAllUserReimbs(int)		ers_user_id 3
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username billybob
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username ashbdj
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: seandoyle is NOT an ADMIN
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:150 - @updateReimbursement		FAIL: jamesbartik is NOT an ADMIN
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:133 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID remibursement ID 23532564
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:136 - @updateReimbursement		FAIL: reimbursement NOT updated because INVALID admin trevincheeter
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:142 - @updateReimbursement		FAIL: reimbursement NOT updated reimbursement already RESOLVED did notapproved
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:146 - @updateReimbursement		FAIL: reimbursement NOT updated SELECT STATEMENT error
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:126 - @updateReimbursement		FAIL: SpringBreak is NOT a valid option
+2018-11-28 15:34:00 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 100
+2018-11-28 15:34:48 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:34:48 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:34:48 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-11-28 15:34:48 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-11-28 15:34:48 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-11-28 15:34:48 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:35:07 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:35:07 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:35:07 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-28 15:35:08 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:3 reimbursements for seandoyle obtained
+2018-11-28 15:35:08 INFO  ReimbursementController:111 - @getByName		Success: User seandoyle has received their reimbursement history
+2018-11-28 15:35:08 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:35:37 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 15:35:37 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 15:35:37 INFO  ERSServiceImplementation:91 - @addReimbursement		username seandoyle
+2018-11-28 15:35:37 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for seandoyle
+2018-11-28 15:35:37 INFO  ReimbursementController:95 - @add		Success: User seandoyle has added a new reimbursement for Food in amount of 10.0
+2018-11-28 15:35:37 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:35:42 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:35:42 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:35:42 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-28 15:35:43 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:4 reimbursements for seandoyle obtained
+2018-11-28 15:35:43 INFO  ReimbursementController:111 - @getByName		Success: User seandoyle has received their reimbursement history
+2018-11-28 15:35:43 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:35:57 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:35:57 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:35:57 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:35:57 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:36:03 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:36:03 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:36:03 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 15:36:03 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 15:36:03 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 15:36:03 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:36:08 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:36:08 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:36:08 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:36:09 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:8 reimbursements obtained
+2018-11-28 15:36:09 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 15:36:09 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:36:21 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:21 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:25 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:25 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:31 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:31 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:32 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:32 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:32 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:32 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:33 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:33 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:33 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:33 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:34 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:34 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:34 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:34 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:34 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:34 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:35 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:36:35 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:37:03 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:37:03 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:37:15 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:37:15 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:37:15 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-11-28 15:38:22 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:38:22 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:38:22 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:38:22 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:38:59 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:38:59 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:38:59 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 15:39:51 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 15:39:52 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 15:39:52 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:39:52 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:39:52 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:39:52 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:39:52 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:40:22 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:40:22 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:40:22 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-11-28 15:40:28 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-11-28 15:40:28 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-11-28 15:40:28 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:19 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:19 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:19 INFO  ERSServiceImplementation:157 - @addReimbursement		username trevinchester
+2018-11-28 15:41:22 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:22 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:22 INFO  ERSServiceImplementation:157 - @addReimbursement		username trevinchester
+2018-11-28 15:41:28 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:28 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:28 INFO  ERSServiceImplementation:157 - @addReimbursement		username trevinchester
+2018-11-28 15:41:28 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:28 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:28 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:28 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 15:41:28 INFO  ERSServiceImplementation:157 - @addReimbursement		username trevinchester
+2018-11-28 15:41:28 INFO  ERSServiceImplementation:157 - @addReimbursement		username trevinchester
+2018-11-28 15:41:30 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-11-28 15:41:30 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Travel in amount of 5.36
+2018-11-28 15:41:30 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:33 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-11-28 15:41:33 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Travel in amount of 5.36
+2018-11-28 15:41:33 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:34 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:34 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:34 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:41:36 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:10 reimbursements obtained
+2018-11-28 15:41:36 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 15:41:36 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:39 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-11-28 15:41:39 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Travel in amount of 5.36
+2018-11-28 15:41:39 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:39 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-11-28 15:41:39 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Travel in amount of 5.36
+2018-11-28 15:41:39 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:39 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-11-28 15:41:39 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Travel in amount of 5.36
+2018-11-28 15:41:39 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:41 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:41 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:41 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:41:43 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:13 reimbursements obtained
+2018-11-28 15:41:43 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 15:41:43 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:50 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:41:50 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:41:50 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-11-28 15:41:52 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 109
+2018-11-28 15:41:52 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Deny
+2018-11-28 15:41:52 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:52 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:52 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:52 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:41:54 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:41:54 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:41:54 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-11-28 15:41:54 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:13 reimbursements obtained
+2018-11-28 15:41:54 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 15:41:54 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:55 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 110
+2018-11-28 15:41:55 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Deny
+2018-11-28 15:41:55 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:41:55 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:55 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:41:55 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:41:58 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:13 reimbursements obtained
+2018-11-28 15:41:58 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-11-28 15:41:58 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:42:49 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:42:49 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:42:49 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:42:49 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:42:53 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:42:53 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:42:53 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-28 15:42:54 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-28 15:42:54 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-28 15:42:54 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:42:57 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:42:57 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:42:57 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:42:58 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:13 reimbursements obtained
+2018-11-28 15:42:58 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 15:42:58 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:43:03 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:43:03 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 15:43:03 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-28 15:43:04 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 105
+2018-11-28 15:43:04 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Approve
+2018-11-28 15:43:04 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:43:04 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:43:04 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:43:04 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:43:05 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:13 reimbursements obtained
+2018-11-28 15:43:05 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 15:43:05 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:48:25 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:48:25 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:48:25 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:48:25 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:48:26 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:48:26 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:48:26 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-28 15:48:27 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-28 15:48:27 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-28 15:48:27 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:48:32 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:48:32 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:48:32 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username geodude
+2018-11-28 15:48:33 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for geodude found
+2018-11-28 15:48:33 INFO  ReimbursementController:114 - @getByName		FAIL: User geodude does not have reimbursement history or bad username
+2018-11-28 15:48:33 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:48:35 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:48:35 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 15:48:35 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username geodude
+2018-11-28 15:48:35 INFO  ReimbDAOImplementation:197 - @getReimbursementsForUser(String)		FAIL: No Reimbursements for geodude found
+2018-11-28 15:48:35 INFO  ReimbursementController:114 - @getByName		FAIL: User geodude does not have reimbursement history or bad username
+2018-11-28 15:48:35 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:48:39 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 15:48:39 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 15:48:39 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 15:48:40 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:13 reimbursements obtained
+2018-11-28 15:48:40 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 15:48:40 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:48:47 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:48:47 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:48:47 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:48:47 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:54:55 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:54:55 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:54:55 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-28 15:54:56 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-28 15:54:56 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-28 15:54:56 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:54:59 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:54:59 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:54:59 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:54:59 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:55:05 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:55:05 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:55:05 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodudeuyf
+2018-11-28 15:55:06 INFO  ERSServiceImplementation:84 - @checkLoginCreds		FAIL: user at geodudeuyf with specified password NOT found
+2018-11-28 15:55:06 INFO  LoginController:39 - @login		FAIL: login returned user is null
+2018-11-28 15:55:06 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:55:07 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:55:07 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:55:07 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:55:07 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:55:14 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 15:55:14 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 15:55:14 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 15:55:14 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 15:55:32 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 15:55:32 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 15:55:32 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-11-28 15:55:33 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-11-28 15:55:33 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-11-28 15:55:33 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:13:21 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 16:13:21 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 16:13:21 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 16:13:21 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:13:23 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 16:13:23 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 16:13:23 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-28 16:13:23 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-28 16:13:23 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-28 16:13:23 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:13:42 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 16:13:42 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 16:13:42 INFO  ERSServiceImplementation:157 - @addReimbursement		username geodude
+2018-11-28 16:13:45 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for geodude
+2018-11-28 16:13:45 INFO  ReimbursementController:95 - @add		Success: User geodude has added a new reimbursement for Travel in amount of 56.89
+2018-11-28 16:13:45 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:13:48 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-28 16:13:48 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-28 16:13:48 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username geodude
+2018-11-28 16:13:49 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:2 reimbursements for geodude obtained
+2018-11-28 16:13:49 INFO  ReimbursementController:111 - @getByName		Success: User geodude has received their reimbursement history
+2018-11-28 16:13:49 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:13:51 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 16:13:51 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 16:13:51 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 16:13:52 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:15 reimbursements obtained
+2018-11-28 16:13:52 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 16:13:52 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:07 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:14:07 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:14:07 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-28 16:14:07 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 112
+2018-11-28 16:14:07 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Approve
+2018-11-28 16:14:07 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:07 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 16:14:07 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 16:14:07 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 16:14:08 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:15 reimbursements obtained
+2018-11-28 16:14:08 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 16:14:08 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:18 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:14:18 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:14:18 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-28 16:14:18 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 102
+2018-11-28 16:14:18 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Approve
+2018-11-28 16:14:18 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:18 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 16:14:18 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 16:14:18 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 16:14:19 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:15 reimbursements obtained
+2018-11-28 16:14:19 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 16:14:19 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:23 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:14:23 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:14:23 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-28 16:14:24 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 113
+2018-11-28 16:14:24 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Deny
+2018-11-28 16:14:24 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:24 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 16:14:24 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 16:14:24 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 16:14:25 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:15 reimbursements obtained
+2018-11-28 16:14:25 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 16:14:25 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:41 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 16:14:41 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 16:14:41 INFO  ERSServiceImplementation:157 - @addReimbursement		username geodude
+2018-11-28 16:14:44 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for geodude
+2018-11-28 16:14:44 INFO  ReimbursementController:95 - @add		Success: User geodude has added a new reimbursement for Travel in amount of 543.0
+2018-11-28 16:14:44 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:14:47 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-28 16:14:47 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-28 16:14:47 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-28 16:14:47 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:15:08 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-28 16:15:08 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-28 16:15:08 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-28 16:15:09 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-28 16:15:09 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-28 16:15:09 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:15:22 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-28 16:15:22 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-28 16:15:22 INFO  ERSServiceImplementation:157 - @addReimbursement		username geodude
+2018-11-28 16:15:23 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for geodude
+2018-11-28 16:15:23 INFO  ReimbursementController:95 - @add		Success: User geodude has added a new reimbursement for Travel in amount of 23.0
+2018-11-28 16:15:23 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:15:28 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 16:15:28 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 16:15:28 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 16:15:29 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:17 reimbursements obtained
+2018-11-28 16:15:29 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 16:15:29 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:15:32 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:15:32 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-28 16:15:32 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-28 16:15:33 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 111
+2018-11-28 16:15:33 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Approve
+2018-11-28 16:15:33 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-28 16:15:33 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-28 16:15:33 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-28 16:15:33 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-28 16:15:33 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:17 reimbursements obtained
+2018-11-28 16:15:33 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-28 16:15:33 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:03:04 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:03:04 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:03:04 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:03:04 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:03:26 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:03:26 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:03:26 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-30 23:03:28 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-30 23:03:28 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-30 23:03:28 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:03:37 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:03:37 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:03:37 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:03:37 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:05:48 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:05:48 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:05:48 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-30 23:05:49 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-30 23:05:49 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-30 23:05:49 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:06:20 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-30 23:06:20 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-30 23:06:20 INFO  ERSServiceImplementation:157 - @addReimbursement		username geodude
+2018-11-30 23:06:23 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for geodude
+2018-11-30 23:06:23 INFO  ReimbursementController:95 - @add		Success: User geodude has added a new reimbursement for Other in amount of 23.11
+2018-11-30 23:06:23 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:08:28 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:08:28 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:08:28 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username geodude
+2018-11-30 23:08:29 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:5 reimbursements for geodude obtained
+2018-11-30 23:08:29 INFO  ReimbursementController:111 - @getByName		Success: User geodude has received their reimbursement history
+2018-11-30 23:08:29 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:08:59 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:08:59 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:08:59 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:08:59 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:21:01 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:21:01 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:21:01 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:21:01 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:21:19 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:21:19 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:21:19 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-30 23:21:20 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-30 23:21:20 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-30 23:21:20 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:21:36 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:21:36 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:21:36 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:21:36 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:21:45 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:21:45 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:21:45 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) sjdnflk
+2018-11-30 23:21:45 INFO  ERSServiceImplementation:84 - @checkLoginCreds		FAIL: user at sjdnflk with specified password NOT found
+2018-11-30 23:21:45 INFO  LoginController:39 - @login		FAIL: login returned user is null
+2018-11-30 23:21:45 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:21:46 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:21:46 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:21:46 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:21:46 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:22:30 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:22:30 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:22:30 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-11-30 23:22:31 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-11-30 23:22:31 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-11-30 23:22:31 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:22:40 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:22:40 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:22:40 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-30 23:22:41 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:4 reimbursements for seandoyle obtained
+2018-11-30 23:22:41 INFO  ReimbursementController:111 - @getByName		Success: User seandoyle has received their reimbursement history
+2018-11-30 23:22:41 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:13 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-11-30 23:24:13 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-11-30 23:24:13 INFO  ERSServiceImplementation:157 - @addReimbursement		username seandoyle
+2018-11-30 23:24:17 INFO  ERSServiceImplementation:161 - @addReimbursement		Success: reimbursement ADDED for seandoyle
+2018-11-30 23:24:17 INFO  ReimbursementController:95 - @add		Success: User seandoyle has added a new reimbursement for Other in amount of 30.71
+2018-11-30 23:24:17 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:20 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:24:20 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:24:20 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-30 23:24:22 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:5 reimbursements for seandoyle obtained
+2018-11-30 23:24:22 INFO  ReimbursementController:111 - @getByName		Success: User seandoyle has received their reimbursement history
+2018-11-30 23:24:22 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:27 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:24:27 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:24:27 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:24:27 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:33 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:24:33 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:24:33 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) geodude
+2018-11-30 23:24:34 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user geodude found
+2018-11-30 23:24:34 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=geodude, firstName=Geo, lastName=Dude, email=Gdude@pokemon.api, role=Admin]
+2018-11-30 23:24:34 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:38 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-30 23:24:38 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-30 23:24:38 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-30 23:24:39 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:19 reimbursements obtained
+2018-11-30 23:24:39 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-30 23:24:39 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:47 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-30 23:24:47 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-30 23:24:47 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-30 23:24:48 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 121
+2018-11-30 23:24:48 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Approve
+2018-11-30 23:24:48 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:48 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-30 23:24:48 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-30 23:24:48 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-30 23:24:49 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:19 reimbursements obtained
+2018-11-30 23:24:49 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-30 23:24:49 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:58 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-11-30 23:24:58 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-11-30 23:24:58 INFO  ERSServiceImplementation:55 - @checkUserType		Admin geodude
+2018-11-30 23:24:58 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by geodude for 120
+2018-11-30 23:24:58 INFO  ReimbursementController:171 - @updateById		Success: Admin geodude has updated reimbursement Deny
+2018-11-30 23:24:58 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:24:58 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-11-30 23:24:58 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-11-30 23:24:58 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-11-30 23:24:59 INFO  ReimbDAOImplementation:82 - @getReimbursements		Success:19 reimbursements obtained
+2018-11-30 23:24:59 INFO  ReimbursementController:131 - @getAll		Success: Admin geodude has received ALL reimbursement history
+2018-11-30 23:24:59 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:25:05 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:25:05 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:25:05 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username geodude
+2018-11-30 23:25:06 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:5 reimbursements for geodude obtained
+2018-11-30 23:25:06 INFO  ReimbursementController:111 - @getByName		Success: User geodude has received their reimbursement history
+2018-11-30 23:25:06 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:25:13 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:25:13 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:25:13 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:25:13 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:25:17 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-11-30 23:25:17 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-11-30 23:25:17 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-11-30 23:25:17 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-11-30 23:25:17 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-11-30 23:25:17 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:25:21 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:25:21 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-11-30 23:25:21 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username seandoyle
+2018-11-30 23:25:22 INFO  ReimbDAOImplementation:195 - @getReimbursementsForUser(String)		Success:5 reimbursements for seandoyle obtained
+2018-11-30 23:25:22 INFO  ReimbursementController:111 - @getByName		Success: User seandoyle has received their reimbursement history
+2018-11-30 23:25:22 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-11-30 23:27:21 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-11-30 23:27:21 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-11-30 23:27:21 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-11-30 23:27:21 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:14:57 INFO  MasterServletJSON:20 - @doGet		ERROR: we should not have gotten here
+2018-12-05 23:14:57 INFO  MasterServletJSON:21 - @doGet		INFO: BACK TO HTML
+2018-12-05 23:15:09 INFO  MasterServletJSON:20 - @doGet		ERROR: we should not have gotten here
+2018-12-05 23:15:09 INFO  MasterServletJSON:21 - @doGet		INFO: BACK TO HTML
+2018-12-05 23:16:50 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:16:50 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:16:51 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-12-05 23:16:53 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-12-05 23:16:53 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-12-05 23:16:53 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:25:27 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:25:27 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:25:27 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-12-05 23:25:29 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-12-05 23:25:30 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-12-05 23:25:30 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:25:39 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:25:39 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:25:39 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-12-05 23:25:39 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-12-05 23:25:39 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-12-05 23:25:39 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:33:18 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:33:18 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:33:18 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-12-05 23:33:19 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-12-05 23:33:19 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-12-05 23:33:19 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:41:08 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:41:08 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:41:08 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-12-05 23:41:08 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-12-05 23:41:08 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-12-05 23:41:08 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:44:28 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:44:28 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:44:28 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-12-05 23:44:29 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-12-05 23:44:29 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-12-05 23:44:29 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:47:18 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:47:18 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:47:18 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) kgkugl
+2018-12-05 23:47:19 INFO  ERSServiceImplementation:84 - @checkLoginCreds		FAIL: user at kgkugl with specified password NOT found
+2018-12-05 23:47:19 INFO  LoginController:39 - @login		FAIL: login returned user is null
+2018-12-05 23:47:19 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:50:13 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-05 23:50:13 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-05 23:50:13 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-05 23:50:13 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:50:16 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-05 23:50:16 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-05 23:50:16 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-12-05 23:50:17 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-12-05 23:50:17 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-12-05 23:50:17 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:50:36 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-12-05 23:50:36 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-12-05 23:50:36 INFO  ERSServiceImplementation:91 - @addReimbursement		username seandoyle
+2018-12-05 23:50:38 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for seandoyle
+2018-12-05 23:50:38 INFO  ReimbursementController:95 - @add		Success: User seandoyle has added a new reimbursement for Other in amount of 12.1
+2018-12-05 23:50:38 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-05 23:50:43 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-05 23:50:43 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-05 23:50:43 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-05 23:50:43 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-11 23:46:00 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-11 23:46:00 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-11 23:46:00 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-11 23:46:00 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:09:54 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-12 00:09:54 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-12 00:09:54 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-12 00:09:54 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:09:55 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-12 00:09:55 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-12 00:09:55 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-12 00:09:55 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:10:01 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-12 00:10:01 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-12 00:10:01 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) seandoyle
+2018-12-12 00:10:03 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user seandoyle found
+2018-12-12 00:10:03 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=seandoyle, firstName=Sean, lastName=Doyle, email=SCDoyle316@gmail.com, role=Employee]
+2018-12-12 00:10:03 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:10:09 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-12 00:10:09 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-12 00:10:09 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-12 00:10:09 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:10:15 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/login.ryker
+2018-12-12 00:10:15 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/login.ryker
+2018-12-12 00:10:15 INFO  ERSServiceImplementation:79 - @checkLoginCreds		username & password(omitted) trevinchester
+2018-12-12 00:10:16 INFO  ERSServiceImplementation:82 - @checkLoginCreds		Success: user trevinchester found
+2018-12-12 00:10:16 INFO  LoginController:42 - @login		Successful: login returned user is 
+	User [username=trevinchester, firstName=Trevin, lastName=Chester, email=Trevin.Chester@revature.com, role=Admin]
+2018-12-12 00:10:16 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:10:32 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-12-12 00:10:32 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-12-12 00:10:32 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-12-12 00:10:33 INFO  ReimbDAOImplementation:80 - @getReimbursements		Success:20 reimbursements obtained
+2018-12-12 00:10:33 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-12-12 00:10:33 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:10:41 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/updatereimbs.ryker
+2018-12-12 00:10:41 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/updatereimbs.ryker
+2018-12-12 00:10:41 INFO  ERSServiceImplementation:55 - @checkUserType		Admin trevinchester
+2018-12-12 00:10:41 INFO  ERSServiceImplementation:139 - @updateReimbursement		Success: reimbursement UPDATED by trevinchester for 116
+2018-12-12 00:10:41 INFO  ReimbursementController:171 - @updateById		Success: Admin trevinchester has updated reimbursement Approve
+2018-12-12 00:10:41 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:10:41 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/adminReimb.ryker
+2018-12-12 00:10:41 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/adminReimb.ryker
+2018-12-12 00:10:41 INFO  ERSServiceImplementation:45 - @getAllReimbs
+2018-12-12 00:10:42 INFO  ReimbDAOImplementation:80 - @getReimbursements		Success:20 reimbursements obtained
+2018-12-12 00:10:42 INFO  ReimbursementController:131 - @getAll		Success: Admin trevinchester has received ALL reimbursement history
+2018-12-12 00:10:42 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:11:21 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/addreimb.ryker
+2018-12-12 00:11:21 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/addreimb.ryker
+2018-12-12 00:11:21 INFO  ERSServiceImplementation:91 - @addReimbursement		username trevinchester
+2018-12-12 00:11:22 INFO  ERSServiceImplementation:97 - @addReimbursement		Success: reimbursement ADDED for trevinchester
+2018-12-12 00:11:22 INFO  ReimbursementController:95 - @add		Success: User trevinchester has added a new reimbursement for Travel in amount of 34.99
+2018-12-12 00:11:22 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:11:33 INFO  MasterServletJSON:26 - @doPost		INFO: using URI /RykerERS/json/employeeReimb.ryker
+2018-12-12 00:11:33 INFO  RequestHelperJSON:18 - @process		INFO: using URI: /RykerERS/json/employeeReimb.ryker
+2018-12-12 00:11:33 INFO  ERSServiceImplementation:73 - @getAllUserReimbs(String)		ers_username trevinchester
+2018-12-12 00:11:34 INFO  ReimbDAOImplementation:193 - @getReimbursementsForUser(String)		Success:7 reimbursements for trevinchester obtained
+2018-12-12 00:11:34 INFO  ReimbursementController:111 - @getByName		Success: User trevinchester has received their reimbursement history
+2018-12-12 00:11:34 INFO  MasterServletJSON:28 - @doPost		INFO: BACK TO HTML
+2018-12-12 00:12:30 INFO  MasterServletAction:31 - @doPost		INFO: using URI /RykerERS/action/logout.ryker
+2018-12-12 00:12:30 INFO  RequestHelperAction:21 - @process		INFO: using URI: /RykerERS/action/logout.ryker
+2018-12-12 00:12:30 INFO  LoginController:55 - @logout		Successful: Session invalidated
+2018-12-12 00:12:30 INFO  MasterServletAction:33 - @doPost		INFO: BACK TO HTML
