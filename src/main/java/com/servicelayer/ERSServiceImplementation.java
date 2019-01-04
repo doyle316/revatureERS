@@ -116,8 +116,8 @@ public class ERSServiceImplementation implements ERSService {
 
 	@Override
 	public boolean updateReimbursement(User user, int reimb_id, String decision) {
-		//if (eservMock.checkAdmin(user)) {
-		if (checkAdmin(user)) {
+		if (eservMock.checkAdmin(user)) {
+		//if (checkAdmin(user)) {
 			if (decision.toLowerCase().equals("approve")) {
 				decision = "approved";
 			} else if (decision.toLowerCase().equals("deny")) {
